@@ -1181,3 +1181,10 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
 .offre-fin { margin: 0; flex: 1 1 360px; min-width: 0; color: var(--soft); font-size: .95rem; line-height: 1.6; }
 @media (max-width: 860px) { .offre-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; } .offre-pied .cta { width: 100%; } }
 .offre { margin-bottom: clamp(28px, 4vw, 44px); }
+
+/* v35 : teintes des domaines plus soutenues (texte bleu nuit conservé, contrastes vérifiés) */
+.c-d1 { --a1: #263c8a; --tbg: #8ea4e6; --dc: #4d69c9; }
+.c-d2 { --a1: #b13a17; --tbg: #f08a68; --dc: #e4502a; }
+.c-d3 { --a1: #7a4f00; --tbg: #f5b63d; --dc: #e0a020; }
+.c-d4 { --a1: #b13a17; --tbg: #f6b595; --dc: #ee8a68; }
+.c-d5 { --a1: #6e5210; --tbg: #d9c08a; --dc: #bf9d52; }
