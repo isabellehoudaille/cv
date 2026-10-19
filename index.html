@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@500;600;700;800;900&display=swap">
-<link rel="stylesheet" href="style.css?v=20261019205620">
+<link rel="stylesheet" href="style.css?v=20261019212724">
 </head>
 <body>
 <div id="progress" aria-hidden="true"></div>
@@ -160,7 +160,7 @@
         '<div class="range-wrap"><input id="roi-range" type="range" min="0" max="100" value="100" aria-label="Sans agent vers avec agent"><span class="slide-hint" id="slide-hint">' + ico("arrow") + 'Glissez</span></div></div></div>';
     } else if (r.avant) {
       o += '<div class="rkpi"><b>' + arr(r.chiffre) + '</b><span>' + esc(r.chiffreL) + '</span><div class="ba"><i class="b1"></i><i class="b2" style="--w:' + (r.apres / r.avant * 100).toFixed(1) + '%"></i></div></div>';
-    } else {
+    } else if (r.chiffre) {
       o += '<div class="rkpi"><b>' + esc(r.chiffre) + ' ' + esc(r.chiffreL) + '</b></div>';
     }
     return o + '</div>';
@@ -436,7 +436,7 @@
     });
   }
 
-  fetch("data.json?v=20261019205620").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (D) {
+  fetch("data.json?v=20261019212724").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (D) {
     D0 = D;
     renderTop(D); renderMain(D);
     wireCv(D);
