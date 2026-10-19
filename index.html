@@ -186,6 +186,7 @@
       acc("outils", "04", "Compétences et formation", "Outils, méthodes, formation et certifications", outilsHtml(D), false) + '</div>';
     h += '<p class="pied">' + esc(D.meta.nom) + ' · ' + esc(D.meta.telephone) + ' · ' + esc(D.meta.email) + ' · ' + esc(D.meta.lieu) + '</p>' +
       '<p class="pied-nda">cadreIActif, SASU au capital de 1&nbsp;000&nbsp;€ · SIREN 100634658 · NDA ' + esc(D.meta.nda || "11923048992") + '</p>' +
+      '<p class="pied-copy">&copy; 2026 Isabelle Houdaille. Tous droits réservés. Textes, visuels, photographies et vidéo : toute reproduction ou réutilisation, totale ou partielle, est interdite sans mon autorisation écrite préalable.</p>' +
       '<p class="pied-ia"><svg class="pal" viewBox="0 0 64 56" aria-hidden="true" focusable="false"><path class="pal-b" d="M32 4C16 4 4 15 4 29c0 14 11 23 25 23 6 0 8-4 6-8s1-8 6-8h7c8 0 12-5 12-11C60 15 48 4 32 4z"/><circle class="pal-h" cx="21" cy="40" r="4.2"/><circle cx="19" cy="22" r="4.6" fill="#1e2a44"/><circle cx="31" cy="15" r="4.6" fill="#c4401b"/><circle cx="44" cy="19" r="4.6" fill="#f0b030"/><circle cx="50" cy="31" r="4.2" fill="#8fa3c4"/><circle cx="37" cy="29" r="4.2" fill="#f4a98f"/></svg>Document co-construit avec l\'IA et ma créativité</p>';
     $("#main").innerHTML = h;
   }

@@ -1164,3 +1164,6 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
   .hero-txt > .metas { order: 6; }
   .vid-frame { width: min(100%, 300px); }
 }
+
+/* v33 : mention de droits d'auteur */
+.pied-copy { margin: 4px auto 0; padding: 0 0 6px; max-width: 62ch; text-align: center; font-size: .78rem; line-height: 1.5; color: var(--mut); }
