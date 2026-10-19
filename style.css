@@ -1167,3 +1167,17 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
 
 /* v33 : mention de droits d'auteur */
 .pied-copy { margin: 4px auto 0; padding: 0 0 6px; max-width: 62ch; text-align: center; font-size: .78rem; line-height: 1.5; color: var(--mut); }
+
+/* v34 : accroche du panneau contact et section « Ce que je propose » */
+.cpanel .cp-txt { margin: 2px 0 4px; color: var(--soft); font-size: .98rem; line-height: 1.6; }
+.offre { margin-top: clamp(36px, 5vw, 64px); }
+.offre-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.offre-it { position: relative; display: flex; flex-direction: column; gap: 10px; padding: 24px 24px 22px; border: 1px solid var(--line2); border-radius: 18px; background: #fff; min-width: 0; }
+.offre-it::before { content: ""; position: absolute; left: 24px; top: 0; width: 44px; height: 3px; background: var(--a1); border-radius: 0 0 3px 3px; }
+.offre-n { font-family: "Playfair Display", Georgia, "Times New Roman", serif; font-weight: 700; font-size: 1.5rem; color: var(--a1); line-height: 1; }
+.offre-it h3 { margin: 0; font-size: 1.2rem; line-height: 1.25; letter-spacing: -.01em; text-wrap: balance; }
+.offre-it p { margin: 0; color: var(--soft); font-size: .98rem; line-height: 1.6; }
+.offre-pied { margin-top: 18px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 24px; padding: 18px 22px; border-radius: 16px; background: var(--bg2); }
+.offre-fin { margin: 0; flex: 1 1 360px; min-width: 0; color: var(--soft); font-size: .95rem; line-height: 1.6; }
+@media (max-width: 860px) { .offre-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; } .offre-pied .cta { width: 100%; } }
+.offre { margin-bottom: clamp(28px, 4vw, 44px); }
