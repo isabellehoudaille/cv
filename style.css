@@ -1209,3 +1209,8 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
 .tile .t-title .iab, .tile .iab { color: #fff; text-shadow: none; font-size: 1.14em; line-height: 1; padding-right: .035em; margin-right: 0; letter-spacing: 0; }
 .offre-pied { display: none; }
 .offre .sec-hint:empty { display: none; }
+
+/* v40 : mention devis */
+.offre-devis{margin:1.4rem auto 0;text-align:center;font-size:.98rem;color:inherit;opacity:.85;line-height:1.5}
+.devis-lien{background:none;border:0;padding:0;margin-left:.25em;font:inherit;font-weight:600;color:#c4401b;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.devis-lien:hover{opacity:.8}
