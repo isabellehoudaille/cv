@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@500;600;700;800;900&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20261019172942">
 </head>
 <body>
 <div id="progress" aria-hidden="true"></div>
@@ -38,7 +38,6 @@
   function ico(name) { return '<svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + D0.icones.raw[name] + '</svg>'; }
   function counter(c) { return '<div class="n" data-n="' + c.n + '" data-s="' + esc(c.s) + '">' + c.n + (c.s ? '<i>' + esc(c.s) + '</i>' : '') + '</div>'; }
   function mailto() { return "mailto:" + D0.meta.email + "?subject=" + encodeURIComponent(D0.contact.objet); }
-  function tel() { return "tel:" + D0.meta.telephone.replace(/\s/g, ""); }
 
   /* ---------- Barre du haut, dock de contact ---------- */
   function renderTop(D) {
@@ -55,10 +54,9 @@
       '<div class="cp-photo"><span class="logo-b">IH</span><div><b>' + esc(D.meta.nom) + '</b><span>' + esc(D.meta.titre) + (D.meta.titre2 ? ' ' + esc(D.meta.titre2) : '') + '</span></div></div>' +
       '<h2 class="cp-h">' + esc(D.contact.titre) + '</h2>' +
       (D.contact.texte ? '<p class="cp-txt">' + esc(D.contact.texte) + '</p>' : '') +
-      '<a class="cta" href="' + esc(mailto()) + '">' + ico("send") + 'Ouvrir ma messagerie</a>' +
+      '<a class="cta" href="' + esc(mailto()) + '">' + ico("send") + esc(D.contact.ecrire || "Ouvrir ma messagerie") + '</a>' +
       '<div class="addr"><span id="addr">' + esc(D.meta.email) + '</span><button type="button" class="copy" id="copy" aria-label="Copier l\'adresse e-mail">' + ico("copy") + '<span>Copier</span></button></div>' +
       '<ul class="cp-list"><li><a class="in" href="' + esc(D.meta.linkedin) + '" target="_blank" rel="noopener">' + D.icones["in"] + '<span>Profil LinkedIn</span></a></li>' +
-      '<li><a href="' + esc(tel()) + '">' + ico("tel") + '<span>' + esc(D.meta.telephone) + '</span></a></li>' +
       '<li><a href="' + esc(D.meta.pdf) + '" target="_blank" rel="noopener">' + ico("pdf") + '<span>CV en PDF</span></a></li>' +
       '<li class="plain">' + ico("lieu") + '<span>' + esc(D.meta.lieu) + '</span></li></ul></aside>';
   }
@@ -441,7 +439,7 @@
     });
   }
 
-  fetch("data.json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (D) {
+  fetch("data.json?v=20261019172942").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (D) {
     D0 = D;
     renderTop(D); renderMain(D);
     wireCv(D);

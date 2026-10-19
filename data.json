@@ -3,7 +3,6 @@
   "nom": "Isabelle Houdaille",
   "titre": "Formatrice en IA",
   "sousTitre": "IA pour la communication, les RH, l'UX et la conduite du changement, les cadres et les organisations à mission",
-  "telephone": "06 58 24 46 28",
   "email": "isabellehoudaille@icloud.com",
   "lieu": "Basée en région parisienne, j'interviens dans toute la France",
   "langues": "",
@@ -559,7 +558,8 @@
   "texte": "Vous souhaitez en savoir plus, collaborer, former vos équipes ou être accompagné(e) ? Écrivez-moi quelques lignes sur votre besoin : je vous réponds personnellement.",
   "objet": "Prise de contact à la suite de votre CV",
   "bouton": "Me contacter",
-  "accroche": "On se parle ?"
+  "accroche": "On se parle ?",
+  "ecrire": "Écrivez-moi"
  },
  "titres": {
   "domaines": "Domaines d'intervention",
