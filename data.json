@@ -572,20 +572,20 @@
  "realisations": [
   {
    "id": "biblio",
-   "t": "60+ prompts qui vivent avec le terrain",
+   "t": "60+ prompts, une base commune enrichie à chaque formation",
    "sous": "Réseau d'insertion professionnelle",
    "img": "img/bibliotheque.jpg",
    "alt": "Couverture du Cockpit IA du CIP, la bibliothèque de prompts",
    "chiffre": "60+",
    "chiffreL": "prompts",
-   "d": "Bibliothèque d'une bonne soixantaine de prompts, créée et co-créée au fil de l'eau avec les conseillers, et mise à jour après chaque atelier.",
+   "d": "Bibliothèque d'une bonne soixantaine de prompts, créée et co-créée avec les conseillers. Elle sert de base structurante : les usages consolidés lors d'une formation enrichissent la suivante, et tout le réseau en profite.",
    "pts": [
     "Les éléments clés pour comprendre l'IA et ses outils",
     "La posture à adopter et l'art de questionner",
     "Des assistants et des agents, des prompts pour aller plus loin",
     "Des exercices d'échauffement ludiques et des ateliers de spécification d'agents"
    ],
-   "gain": "Bénéfice : adoption par les conseillers, des prompts adaptés au terrain et toujours à jour"
+   "gain": "Bénéfice : une base commune qui s'enrichit à chaque formation, au profit de tout le réseau"
   },
   {
    "id": "agent",
