@@ -11,7 +11,7 @@
     "titre2": ""
   },
   "profil": {
-    "texte": "Vingt ans de communication, de marketing et de transformation digitale, dont quatre ans de conseil auprès de grands groupes. Je forme aujourd'hui à l'IA générative (IAG) et agentique les organismes de formation, les managers et leurs équipes, les particuliers. Ma pratique tient en deux temps : les fondamentaux, pour adopter la bonne posture, puis des cas concrets, travaillés sur de vraies tâches. L'IA au service de l'humain, dans la responsabilité, l'éthique et le discernement. Humain + IA, jamais l'un sans l'autre.",
+    "texte": "Vingt ans de communication, de marketing et de transformation digitale, dont quatre ans de conseil auprès de grands groupes. Je forme aujourd'hui à l'IA générative (IAG) et agentique les organismes de formation, les managers et leurs équipes, les particuliers. Ma pratique tient en deux temps : les fondamentaux, pour adopter la bonne posture, puis des cas d'usage propres à chaque métier. L'IA au service de l'humain, dans la responsabilité, l'éthique et le discernement. Humain + IA, jamais l'un sans l'autre.",
     "accent": "Humain + IA, jamais l'un sans l'autre."
   },
   "chiffres": [
@@ -637,12 +637,12 @@
     {
       "src": "img/conference.jpg",
       "alt": "Conférence interactive devant un public assis, avec écran et ateliers visuels",
-      "cap": "Conférence interactive"
+      "cap": "Conférences interactives"
     },
     {
       "src": "img/atelier-conf.jpg",
       "alt": "Participants en atelier autour d'un paperboard couvert de post-it, pendant une conférence interactive",
-      "cap": "Atelier participatif"
+      "cap": "Ateliers participatifs"
     },
     {
       "src": "img/jeunes2.jpg",
@@ -656,23 +656,21 @@
     }
   ],
   "offre": {
-    "titre": "Ce que je propose",
-    "hint": "Trois façons de travailler ensemble",
+    "titre": "Trois façons de travailler ensemble",
+    "hint": "",
     "items": [
       {
-        "t": "Avec des organismes de formation",
-        "d": "J'interviens comme formatrice dans le cadre de partenariats. L'organisme porte le dossier de financement OPCO."
+        "t": "Vous êtes un organisme de formation",
+        "d": "Je conçois et j'anime vos modules sur l'IA générative et agentique, en sous-traitance pédagogique. Vous gardez la relation client et le dossier OPCO, je m'adapte à votre catalogue."
       },
       {
-        "t": "En direct pour les entreprises",
-        "d": "Formation et accompagnement de vos équipes et de vos managers."
+        "t": "Vous êtes une entreprise",
+        "d": "Formation et accompagnement de vos managers et de vos équipes, à partir de leurs métiers et de leurs cas d'usage. Financement possible par votre OPCO, via un organisme partenaire ou une société de portage certifiée Qualiopi."
       },
       {
-        "t": "Pour les cadres, à titre individuel",
-        "d": "Accompagnement en one-to-one ou en petit groupe, pour les cadres qui souhaitent se faire accompagner seuls."
+        "t": "Vous êtes cadre et vous voulez renforcer votre employabilité",
+        "d": "Accompagnement en tout petit groupe ou en individuel, pour maîtriser l'IA sur votre métier et savoir la valoriser. Financement personnel, ou pris en charge par votre entreprise."
       }
-    ],
-    "financement": "Financement : avec un organisme de formation, c'est lui qui porte le dossier OPCO. Je peux aussi passer par une société de portage, ou travailler en direct, notamment en one-to-one.",
-    "bouton": "Parlons de votre besoin"
+    ]
   }
 }

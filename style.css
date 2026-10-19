@@ -1204,3 +1204,8 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
 
 /* v38 : le mot IA des titres de domaines passe en blanc (ombre bleu nuit discrète pour garder la lisibilité sur les teintes claires) */
 .tile .t-title .iab, .tile .iab { color: #fff; text-shadow: 0 1px 0 rgba(30,42,68,.7), 0 0 1px rgba(30,42,68,.6), 0 2px 7px rgba(30,42,68,.45); }
+
+/* v39 : mot IA des titres de domaines en blanc, sans contour, un peu plus grand, avec un souffle avant la virgule ; section offre sans pied */
+.tile .t-title .iab, .tile .iab { color: #fff; text-shadow: none; font-size: 1.14em; line-height: 1; padding-right: .035em; margin-right: 0; letter-spacing: 0; }
+.offre-pied { display: none; }
+.offre .sec-hint:empty { display: none; }

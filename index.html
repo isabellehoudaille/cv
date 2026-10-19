@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@500;600;700;800;900&display=swap">
-<link rel="stylesheet" href="style.css?v=20261019202717">
+<link rel="stylesheet" href="style.css?v=20261019203545">
 </head>
 <body>
 <div id="progress" aria-hidden="true"></div>
@@ -89,9 +89,7 @@
     return '<section class="offre" id="offre"><div class="sec-head"><h2>' + esc(O.titre) + '</h2><span class="sec-hint">' + esc(O.hint || "") + '</span></div>' +
       '<ul class="offre-grid">' + O.items.map(function (it, i) {
         return '<li class="offre-it"><span class="offre-n">' + (i + 1) + '</span><h3>' + esc(it.t) + '</h3><p>' + esc(it.d) + '</p></li>';
-      }).join("") + '</ul>' +
-      '<div class="offre-pied"><p class="offre-fin">' + esc(O.financement) + '</p>' +
-      '<button class="cta" type="button" data-open-contact>' + ico("send") + esc(O.bouton) + '</button></div></section>';
+      }).join("") + '</ul></section>';
   }
 
   function kpisHtml(D) {
@@ -439,7 +437,7 @@
     });
   }
 
-  fetch("data.json?v=20261019202717").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (D) {
+  fetch("data.json?v=20261019203545").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (D) {
     D0 = D;
     renderTop(D); renderMain(D);
     wireCv(D);
