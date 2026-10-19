@@ -49,7 +49,7 @@
       '<button class="cta sm" type="button" data-open-contact>' + ico("send") + esc(D.contact.bouton) + '</button></div></div>';
 
     $("#dock").innerHTML =
-      '<button class="tab-contact" type="button" data-open-contact aria-label="' + esc(D.contact.bouton) + '"><span class="tc-ic">' + ico("send") + '</span><span class="tc-tx">' + esc(D.contact.bouton) + '</span></button>' +
+      '<button class="tab-contact" type="button" data-open-contact aria-label="' + esc(D.contact.accroche || D.contact.bouton) + '"><span class="tc-ic">' + ico("send") + '</span><span class="tc-tx">' + esc(D.contact.accroche || D.contact.bouton) + '</span></button>' +
       '<div class="scrim" id="scrim"></div>' +
       '<aside class="cpanel" id="cpanel" aria-hidden="true" aria-label="Contact"><button class="icon-btn x" type="button" id="cclose" aria-label="Fermer">' + ico("close") + '</button>' +
       '<div class="cp-photo"><span class="logo-b">IH</span><div><b>' + esc(D.meta.nom) + '</b><span>' + esc(D.meta.titre) + (D.meta.titre2 ? ' ' + esc(D.meta.titre2) : '') + '</span></div></div>' +

@@ -558,7 +558,8 @@
   "titre": "Contactez-moi",
   "texte": "Vous souhaitez en savoir plus, collaborer, former vos équipes ou être accompagné(e) ? Écrivez-moi quelques lignes sur votre besoin : je vous réponds personnellement.",
   "objet": "Prise de contact à la suite de votre CV",
-  "bouton": "Me contacter"
+  "bouton": "Me contacter",
+  "accroche": "On se parle ?"
  },
  "titres": {
   "domaines": "Domaines d'intervention",
