@@ -607,18 +607,18 @@
     },
     {
       "id": "projets",
-      "t": "L'IA pour analyser 50 projets avant le CODIR",
-      "sous": "Associations et entreprises à mission",
+      "t": "L'IA pour analyser 50 projets avant le comité de sélection",
+      "sous": "Fondation d'entreprise, soutien à des projets à impact dans les territoires",
       "img": "img/projets.jpg",
       "alt": "Illustration : des documents variés passent dans un entonnoir et sont classés en trois dossiers, synthèse et classification automatique",
       "chiffre": "35 h → 10 h",
       "chiffreL": "de lecture pour passer en revue 50 projets tous les 2 mois",
       "avant": 35,
       "apres": 10,
-      "d": "Tous les deux mois, une cinquantaine de projets hétérogènes ou incomplets doivent être lus avant le CODIR. Avec l'IA, chacun est analysé selon une même grille de critères équitables : le temps de lecture passe de 35 h à 10 h, et la décision reste humaine.",
+      "d": "Tous les deux mois, une cinquantaine de dossiers de porteurs de projets, de formats et de qualité inégaux, doivent être lus avant le comité de sélection. Avec l'IA, chacun est analysé selon une même grille de critères équitables, centrée sur l'impact attendu : le temps de lecture passe de 35 h à 10 h, et la décision reste humaine.",
       "pts": [
-        "Une grille de critères équitables, identique pour chaque projet",
-        "Données anonymisées, outils validés, relecture humaine avant le CODIR"
+        "Une grille de critères équitables et centrée sur l'impact, identique pour chaque projet",
+        "Données anonymisées, outils validés, relecture humaine avant le comité"
       ],
       "gain": "Bénéfice : 10 h de lecture au lieu de 35 h, tous les 2 mois, avec une même grille pour chaque projet"
     }
