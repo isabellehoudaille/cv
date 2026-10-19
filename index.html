@@ -74,7 +74,15 @@
       '<a class="cta alt" href="' + esc(D.meta.pdf) + '" target="_blank" rel="noopener">' + ico("pdf") + 'Télécharger le CV (PDF)</a></div>' +
       '<p class="metas">' + ico("lieu") + esc(D.meta.lieu) + '</p>' +
       '</div>' +
-      '<figure class="visuel" id="photo"><img src="img/hero.jpg" alt="Illustration : une formatrice animant un atelier devant un paperboard, L\'IA dans votre métier" width="760" height="760"></figure></div></section>';
+      '<figure class="vid" id="presentation">' +
+        '<div class="vid-frame">' +
+        '<video id="vid-el" playsinline preload="none" poster="media/presentation-poster.jpg" aria-label="Vidéo de présentation d\'' + esc(D.meta.nom) + '" width="720" height="1280"><source src="media/presentation.mp4" type="video/mp4"></video>' +
+        '<img class="vid-poster" src="media/presentation-poster.jpg" alt="" width="720" height="1280">' +
+        '<button class="vid-play" type="button" aria-label="Lire la vidéo de présentation (50 secondes)">' +
+          '<span class="vid-ring"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a.8.8 0 0 0 1.2.7l10.4-6.5a.8.8 0 0 0 0-1.4L9.2 4.8A.8.8 0 0 0 8 5.5z" fill="currentColor"/></svg></span>' +
+          '<span class="vid-lab">Me découvrir en 50 secondes</span>' +
+        '</button>' +
+        '</div></figure></div></section>';
   }
 
   function kpisHtml(D) {
@@ -84,7 +92,7 @@
     o += k(H, H.repartition[0].h + ' h en ' + esc(H.repartition[0].l) + '<br>' + H.repartition[1].h + ' h auprès d\'adultes');
     o += k(S, esc(S.d) + '<br>depuis 2019, en présentiel et en distanciel');
     o += k(A, 'IA générative et agentique<br>' + A.sessions.nb + ' sessions de ' + A.sessions.duree.replace(" ", "\u00a0") + ', ' + A.sessions.par + ' participants');
-    o += k(Y, 'Communication, marketing,<br>transformation digitale');
+    o += k(Y, 'Communication, marketing,<br>transformation digitale, innovation');
     return o + '</div>' +
       '<p class="publics"><span>' + esc(D.titres.publics) + '</span>' + D.publics.map(function (t) { return '<b>' + esc(t) + '</b>'; }).join("") + '</p></section>';
   }
@@ -109,29 +117,28 @@
   function arr(s) { return esc(s).replace(/→/g, '<span class="ar">→</span>'); }
   function titreIA(t) { return esc(t).replace(/^IA\b/, '<span class="iab">IA</span>'); }
   function expertiseHtml(D) {
-    return '<section class="expertise" id="expertise"><div class="sec-head"><h2>' + esc(D.titres.expertise).replace(/IA$/, '<span class="gt">IA</span>') + '</h2><span class="sec-hint">' + ico("cursor") + 'Cliquez une case pour voir les résultats et les cas d\'usage</span></div>' +
+    return '<section class="expertise" id="expertise"><div class="sec-head"><h2>' + esc(D.titres.expertise).replace(/IA$/, '<span class="gt">IA</span>') + '</h2><span class="sec-hint">' + ico("cursor") + 'Cliquez un domaine pour découvrir ce que je couvre</span></div>' +
       '<div class="tiles" id="tiles" role="tablist" aria-label="Domaines d\'expertise en IA">' +
       D.fonctions.map(function (f, k) {
         return '<button class="tile spot c-' + f.col + '" role="tab" type="button" id="tab-' + f.id + '" data-i="' + k + '" aria-selected="false" aria-controls="panel">' +
           '<span class="t-ic">' + f.icon + '</span>' +
-          '<span class="t-top"><span class="t-num">0' + (k + 1) + '</span><span class="plus"><span class="p1">' + ico("plus") + '</span><span class="p2">' + ico("check") + '</span></span></span>' +
+          '<span class="t-top"><span class="plus"><span class="p1">' + ico("plus") + '</span><span class="p2">' + ico("check") + '</span></span></span>' +
           '<span class="t-title">' + titreIA(f.t) + '</span>' +
-          '<span class="t-go"><span class="go-off">Voir les résultats</span><span class="go-on">Affiché ci-dessous</span>' + ico("arrow") + '</span></button>';
+          '<span class="t-go"><span class="go-off">Plus d\'infos</span><span class="go-on">Affiché ci-dessous</span><span class="go-plus">' + ico("plus") + '</span></span></button>';
       }).join("") + '</div><div class="panel" id="panel" role="tabpanel" aria-live="polite" hidden></div></section>';
   }
 
   function terrainHtml(D) {
-    return '<section class="terrain" id="terrain"><div class="sec-head"><h2>' + esc(D.titres.terrain) + '</h2></div><div class="ribbon">' +
+    return '<section class="terrain" id="terrain"><div class="sec-head"><h2>' + esc(D.titres.terrain) + '</h2><span class="sec-hint">' + esc(D.titres.terrainHint || "") + '</span></div><div class="ribbon">' +
       D.terrain.map(function (p) { return '<figure class="spot"><img src="' + esc(p.src) + '" alt="' + esc(p.alt) + '" loading="lazy"><figcaption>' + esc(p.cap) + '</figcaption></figure>'; }).join("") + '</div></section>';
   }
 
   function realisationsHtml(D) {
     return '<p class="lead">Trois exemples de valeur ajoutée, du livre de prompts à l\'agent.</p>' +
-      '<p class="hint"><span class="hand-ic">' + ico("cursor") + '</span>Cliquez sur une réalisation pour voir le détail</p>' +
-      '<div class="rcards" id="rcards" role="tablist" aria-label="Réalisations">' + D.realisations.map(function (r, k) {
+            '<div class="rcards" id="rcards" role="tablist" aria-label="Réalisations">' + D.realisations.map(function (r, k) {
         return '<button type="button" class="rcard spot" role="tab" id="rtab-' + r.id + '" data-i="' + k + '" aria-selected="false" aria-controls="rpanel">' +
           '<span class="rimg"><img src="' + esc(r.img) + '" alt="" loading="lazy"></span>' +
-          '<span class="rbody"><span class="t-num">0' + (k + 1) + ' · ' + esc(r.sous) + '</span><span class="t-title">' + esc(r.t) + '</span>' +
+          '<span class="rbody"><span class="t-num">0' + (k + 1) + ' · ' + esc(r.sous) + '</span><span class="t-title">' + esc(r.t) + '</span>' + (r.gain ? '<span class="r-gain">' + esc(r.gain) + '</span>' : '') +
           '<span class="t-go"><span class="go-off">Voir le détail</span><span class="go-on">Affiché ci-dessous</span>' + ico("arrow") + '</span></span></button>';
       }).join("") + '</div><div class="rpanel" id="rpanel" role="tabpanel" aria-live="polite" hidden></div>';
   }
@@ -177,7 +184,9 @@
       acc("realisations", "02", "Réalisations concrètes", "Du livre de prompts à l'agent métier", realisationsHtml(D), false) +
       acc("parcours", "03", "Expérience professionnelle", "Formation, enseignement en Master, conseil, communication, parcours antérieur", parcoursHtml(D), false) +
       acc("outils", "04", "Compétences et formation", "Outils, méthodes, formation et certifications", outilsHtml(D), false) + '</div>';
-    h += '<p class="pied">' + esc(D.meta.nom) + ' · ' + esc(D.meta.telephone) + ' · ' + esc(D.meta.email) + ' · ' + esc(D.meta.lieu) + '</p>';
+    h += '<p class="pied">' + esc(D.meta.nom) + ' · ' + esc(D.meta.telephone) + ' · ' + esc(D.meta.email) + ' · ' + esc(D.meta.lieu) + '</p>' +
+      '<p class="pied-nda">cadreIActif, SASU au capital de 1&nbsp;000&nbsp;€ · SIREN 100634658 · NDA ' + esc(D.meta.nda || "11923048992") + '</p>' +
+      '<p class="pied-ia"><svg class="pal" viewBox="0 0 64 56" aria-hidden="true" focusable="false"><path class="pal-b" d="M32 4C16 4 4 15 4 29c0 14 11 23 25 23 6 0 8-4 6-8s1-8 6-8h7c8 0 12-5 12-11C60 15 48 4 32 4z"/><circle class="pal-h" cx="21" cy="40" r="4.2"/><circle cx="19" cy="22" r="4.6" fill="#1e2a44"/><circle cx="31" cy="15" r="4.6" fill="#c4401b"/><circle cx="44" cy="19" r="4.6" fill="#f0b030"/><circle cx="50" cy="31" r="4.2" fill="#8fa3c4"/><circle cx="37" cy="29" r="4.2" fill="#f4a98f"/></svg>Document co-construit avec l\'IA et ma créativité</p>';
     $("#main").innerHTML = h;
   }
 
@@ -206,6 +215,24 @@
     if (location.hash && /^#[a-z]+$/.test(location.hash)) openTo(location.hash.slice(1));
   }
 
+  function wireCv(D) {
+    /* Dans l'aperçu hébergé par claude.ai, ouvrir le PDF dans un nouvel onglet est refusé : on l'affiche dans la page. */
+    var enApercu = /claude\.ai|claudeusercontent/i.test(location.hostname);
+    if (!enApercu) return;
+    var box = document.createElement("div");
+    box.className = "cvbox"; box.hidden = true; box.setAttribute("role", "dialog"); box.setAttribute("aria-label", "Mon CV");
+    box.innerHTML = '<div class="cvbox-in"><button type="button" class="cvbox-x" aria-label="Fermer">×</button><img src="img/cv-page-1.png" alt="CV, page 1"><img src="img/cv-page-2.png" alt="CV, page 2"></div>';
+    document.body.appendChild(box);
+    function close() { box.hidden = true; document.documentElement.classList.remove("cv-open"); }
+    box.addEventListener("click", function (e) { if (e.target === box || e.target.className === "cvbox-x") close(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") close(); });
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest('a[href$=".pdf"]');
+      if (!a) return;
+      e.preventDefault(); box.hidden = false; document.documentElement.classList.add("cv-open"); box.scrollTop = 0;
+    });
+  }
+
   function wireFonctions(D) {
     var tabs = $$(".tile"), panel = $("#panel"), cur = -1, wrap = $("#tiles");
     function notch() {
@@ -222,8 +249,13 @@
       panel.className = "panel c-" + f.col;
       panel.innerHTML = '<div class="p-left"><div class="p-ill">' + f.icon + '</div><h3 class="swap">' + titreIA(f.t) + '</h3><p class="acc2 swap">' + esc(f.acc) + '</p>' +
         '<p class="d swap">' + esc(f.d) + '</p></div>' +
-        '<div class="p-right"><div class="cas-title">Résultats et réalisations</div><ul class="res">' + f.res.map(function (x) { return '<li><b>' + arr(x.k) + '</b><span>' + esc(x.l) + '</span></li>'; }).join("") + '</ul>' +
-        '<div class="cas-title">Exemples de cas d\'usage</div><ul class="cas">' + f.cas.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join("") + '</ul></div>';
+        '<div class="p-right"><div class="cas-title">Ce que je peux couvrir : exemples de cas d\'usage</div><ul class="cas">' + f.cas.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join("") + '</ul>' +
+        '<div class="cas-title">Pourquoi ça peut marcher : indicateurs de réussite</div><ul class="rzs">' + f.res.map(function (x) {
+          var w = Math.max(6, Math.round(x.ap / x.av * 100)), g = Math.round((1 - x.ap / x.av) * 100);
+          return '<li class="rz"><div class="rz-h"><b>' + esc(x.t) + '</b><span class="rz-tag' + (x.est ? ' est' : '') + '">' + (x.est ? 'Estimation' : 'Constaté') + '</span></div><p>' + esc(x.l) + '</p>' +
+            '<div class="rz-bars"><div class="rz-bar rz-avant"><span class="bl">Avant</span><span class="trk"><i style="--w:100%"></i></span><em>' + esc(x.avl) + '</em></div>' +
+            '<div class="rz-bar rz-apres"><span class="bl">Après</span><span class="trk"><i style="--w:' + w + '%"></i></span><em>' + esc(x.apl) + '</em></div></div><span class="rz-gain">−' + g + ' %</span></li>';
+        }).join("") + '</ul><p class="rz-note">Les chiffres marqués « Estimation » sont des ordres de grandeur issus de ma pratique, à confirmer cas par cas.</p></div>';
       notch();
       if (o.focus) tabs[i].focus();
       if (o.reveal) setTimeout(function () { panel.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "nearest" }); }, 40);
@@ -333,6 +365,14 @@
     }
   }
 
+  function wireVideo() {
+    var fig = $("#presentation"); if (!fig) return;
+    var v = $("#vid-el"), b = $(".vid-play", fig), lab = $(".vid-lab", fig);
+    function start() { fig.classList.add("on"); v.controls = true; var p = v.play(); if (p && p.catch) p.catch(function () { fig.classList.remove("on"); v.controls = false; }); }
+    b.addEventListener("click", start);
+    v.addEventListener("ended", function () { fig.classList.remove("on"); v.controls = false; v.currentTime = 0; lab.textContent = "Revoir la présentation"; });
+  }
+
   function wireNav() {
     var links = $$(".tnav a");
     if (!("IntersectionObserver" in window)) return;
@@ -380,7 +420,8 @@
   fetch("data.json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (D) {
     D0 = D;
     renderTop(D); renderMain(D);
-    wireAcc(); wireFonctions(D); wireFlow(); wireDash(); wireRealisations(D); wireCounters(); wireSpot(); wireNav(); wireProgress(); wireContact();
+    wireCv(D);
+    wireAcc(); wireFonctions(D); wireFlow(); wireDash(); wireRealisations(D); wireCounters(); wireSpot(); wireVideo(); wireNav(); wireProgress(); wireContact();
   }).catch(function (e) {
     $("#main").innerHTML = '<div class="erreur">Le fichier data.json n\'a pas pu être chargé. Ouvrez la page depuis un serveur web (hébergement ou serveur local), pas en double-cliquant sur le fichier.</div>';
     if (window.console) console.error(e);
