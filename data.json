@@ -226,11 +226,11 @@
    "c": "amber",
    "ill": "<svg viewBox=\"0 0 160 130\" aria-hidden=\"true\"><path class=\"s f3\" d=\"M62 78 L42 104 L64 98 Z\"/><path class=\"s f3\" d=\"M98 78 L118 104 L96 98 Z\"/><path class=\"s f2\" d=\"M80 10 C106 28 110 64 100 92 H60 C50 64 54 28 80 10 Z\"/><circle class=\"s f1\" cx=\"80\" cy=\"48\" r=\"11\"/><path class=\"s f1\" d=\"M68 94 Q80 128 92 94 Z\"/><path class=\"s f3\" d=\"M130 30 l3 7 7 3 -7 3 -3 7 -3-7 -7-3 7-3z\"/><path class=\"s\" d=\"M26 40 h10 M31 35 v10\"/></svg>",
    "acc": "Le manager pilote, l'IA copilote.",
-   "d": "Je cartographie vos processus métiers, j'établis les bonnes connexions, je configure les prompts : un cockpit de pilotage relié à la messagerie, à l'agenda et aux documents, pour créer de la valeur.",
+   "d": "Je cartographie vos processus métiers, j'établis les bonnes connexions, je configure les prompts : un cockpit de pilotage relié à la messagerie, à l'agenda et aux documents, avec des tâches planifiées, pour créer de la valeur et mesurer l'impact.",
    "cas": [
     "Installer son cockpit de pilotage : l'IA reliée à sa messagerie, son agenda, ses documents et ses applications métiers, avec le LLM mis à disposition, pour gagner en productivité",
     "Transformer les échanges en décisions : comptes rendus de visios et de rencontres, synthèses, plans d'action avec échéances",
-    "Garder une veille utile : sources triées, synthèse régulière sur son marché et sur l'IA",
+    "Planifier ses tâches récurrentes, dans Claude ou ChatGPT : veille, newsletter, bilan, récapitulatif, to-do list, livrés sans y penser",
     "Travailler en équipe : une base de connaissances partagée, interrogeable, pour capitaliser sur le savoir et les pratiques collectives",
     "Penser avec l'IA : un partenaire de réflexion pour challenger ses idées, explorer des pistes et gagner en créativité",
     "Piloter son activité : suivi financier, suivi des indicateurs et tableaux de bord en data visualisation",
