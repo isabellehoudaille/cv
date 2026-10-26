@@ -599,11 +599,11 @@
    "alt": "Écran d'un agent IA de l'association",
    "chiffre": "3 ans → 3 mois",
    "chiffreL": "entre deux renouvellements du catalogue d'ateliers",
-   "d": "Le catalogue d'ateliers de l'association était renouvelé tous les trois ans, un chantier lourd. Un agent permet désormais de le renouveler tous les trois mois : un cycle divisé par douze. À partir d'un simple brief, il cadre le besoin, propose des idées d'ateliers et construit chacun pour une cible et un objectif précis. Le catalogue colle au besoin réel d'un marché qui bouge vite, et gagne en attractivité.",
+   "d": "Tous les trois ans, l'association renouvelait son catalogue d'ateliers : un chantier lourd. Avec l'agent, c'est tous les trois mois. À partir d'un simple brief, il cadre le besoin, propose des idées et construit chaque atelier pour une cible et un objectif précis. Le catalogue colle enfin à un marché qui bouge vite, et gagne en attractivité.",
    "pts": [
-    "Il part d'un brief, cadre le besoin et propose des idées d'ateliers pour une cible et un objectif précis",
-    "Il construit l'atelier de bout en bout : déroulé, supports, évaluation et mesure de l'impact",
-    "Il tient compte des spécificités du public, pour une pédagogie différenciée, et ouvre des concepts qu'on n'aurait pas imaginés seul"
+    "Un brief, un besoin cadré, des idées d'ateliers pour une cible et un objectif précis",
+    "Déroulé, supports, évaluation, mesure de l'impact : l'atelier est construit de bout en bout",
+    "Une pédagogie différenciée selon le public, et des concepts qu'on n'aurait pas imaginés seul"
    ],
    "gain": "Avant : tous les 3 ans. Maintenant : tous les 3 mois, un cycle divisé par 12",
    "avant": 36,
