@@ -143,7 +143,7 @@
    "ill": "<svg viewBox=\"0 0 160 130\" aria-hidden=\"true\"><path class=\"s f3\" d=\"M82 112 q0-34 28-34 q28 0 28 34z\"/><circle class=\"s f3\" cx=\"110\" cy=\"56\" r=\"14\"/><path class=\"s f1\" d=\"M20 112 q0-40 33-40 q33 0 33 40z\"/><circle class=\"s f2\" cx=\"53\" cy=\"48\" r=\"17\"/><circle class=\"s f2\" cx=\"128\" cy=\"22\" r=\"15\"/><path class=\"s\" d=\"M121 22 l5 6 9-11\"/><path class=\"s\" d=\"M44 98 h18\"/></svg>",
    "res": [
     {
-     "t": "Le renouvellement du catalogue d'ateliers d'un réseau d'insertion",
+     "t": "Le renouvellement du catalogue d'ateliers d'une association nationale",
      "l": "quatre agents IA, un par étape de conception, bibliothèque de 60+ prompts",
      "avl": "tous les 3 ans",
      "apl": "tous les 3 mois",
@@ -593,19 +593,21 @@
   },
   {
    "id": "agent",
-   "t": "Un agent IA conçu avec la direction pour alléger les tâches chronophages",
+   "t": "Un agent IA pour renouveler le catalogue d'ateliers tous les 3 mois",
    "sous": "Association nationale de défense des droits des consommateurs",
    "img": "img/agent.jpg",
    "alt": "Écran d'un agent IA de l'association",
-   "chiffre": "",
-   "chiffreL": "",
-   "d": "Une association nationale de défense des droits des consommateurs veut rendre du temps à ses équipes. Nous commençons par recenser les tâches répétitives. Puis je conçois l'agent avec la direction : besoin exprimé, prototypes, tests en situation réelle. Le jugement et la décision restent humains.",
+   "chiffre": "3 ans → 3 mois",
+   "chiffreL": "entre deux renouvellements du catalogue d'ateliers",
+   "d": "Le catalogue d'ateliers de l'association était renouvelé tous les trois ans, un chantier lourd. Un dispositif d'agents IA, un par étape du cycle de conception, le renouvelle désormais tous les trois mois : le cycle est divisé par douze. Le catalogue colle au besoin réel d'un marché qui bouge vite, et gagne en attractivité.",
    "pts": [
-    "Recensement des tâches chronophages avec les équipes",
-    "Prototypes testés en situation réelle avant tout déploiement",
-    "Données anonymisées, outils validés, relecture humaine"
+    "Un même socle décliné en trois parcours : managers, leurs équipes, conseillers",
+    "Gouvernance posée : données anonymisées, outils validés, relecture humaine avant diffusion",
+    "Dispositif testé en conditions réelles lors de cinq sessions animées"
    ],
-   "gain": "Des équipes déchargées des tâches répétitives, un jugement qui reste humain"
+   "gain": "Avant : tous les 3 ans. Maintenant : tous les 3 mois, un cycle divisé par 12",
+   "avant": 36,
+   "apres": 3
   },
   {
    "id": "projets",
