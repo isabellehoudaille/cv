@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@500;600;700;800;900&display=swap">
-<link rel="stylesheet" href="style.css?v=20261026211803">
+<link rel="stylesheet" href="style.css?v=20261026212408">
 </head>
 <body>
 <div id="progress" aria-hidden="true"></div>
@@ -124,7 +124,7 @@
   function arr(s) { return esc(s).replace(/→/g, '<span class="ar">→</span>'); }
   function titreIA(t) { return esc(t).replace(/^IA\b/, '<span class="iab">IA</span>'); }
   function expertiseHtml(D) {
-    return '<section class="expertise" id="expertise"><div class="sec-head"><h2>' + esc(D.titres.expertise).replace(/IA$/, '<span class="gt">IA</span>') + '</h2><span class="sec-hint">' + ico("cursor") + 'Choisissez un domaine, je vous montre ce que ça change</span></div>' +
+    return '<section class="expertise" id="expertise"><div class="sec-head"><h2>' + esc(D.titres.expertise).replace(/IA$/, '<span class="gt">IA</span>') + '</h2><span class="sec-hint">' + ico("cursor") + 'Cliquez sur un domaine pour en voir des cas concrets</span></div>' +
       '<div class="tiles" id="tiles" role="tablist" aria-label="Domaines d\'expertise en IA">' +
       D.fonctions.map(function (f, k) {
         return '<button class="tile spot c-' + f.col + '" role="tab" type="button" id="tab-' + f.id + '" data-i="' + k + '" aria-selected="false" aria-controls="panel">' +
@@ -436,7 +436,7 @@
     });
   }
 
-  fetch("data.json?v=20261026211803").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (D) {
+  fetch("data.json?v=20261026212408").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (D) {
     D0 = D;
     renderTop(D); renderMain(D);
     wireCv(D);

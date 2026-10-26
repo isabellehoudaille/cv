@@ -663,14 +663,14 @@
   "items": [
    {
     "t": "Vous êtes un organisme de formation",
-    "d": "Vous gardez la relation client et le dossier OPCO, je prends la pédagogie : conception et animation de vos modules sur l'IA générative et agentique, en sous-traitance, calés sur votre catalogue."
+    "d": "Votre catalogue, votre relation client, votre dossier OPCO : je conçois et j'anime vos modules sur l'IA générative et agentique, en sous-traitance pédagogique."
    },
    {
     "t": "Vous êtes une entreprise",
     "d": "Vos managers et vos équipes se forment sur leur propre terrain : leurs métiers, leurs cas d'usage, leurs irritants. Financement possible par votre OPCO, via un organisme partenaire ou une société de portage certifiée Qualiopi."
    },
    {
-    "t": "Vous êtes manager ou cadre et vous voulez être augmenté, pas remplacé",
+    "t": "Vous êtes manager et vous voulez être augmenté, pas remplacé",
     "d": "Accompagnement en tout petit groupe ou en individuel : l'IA fait ce qu'elle fait très bien, vous gardez les décisions qui vous appartiennent. Financement personnel, ou pris en charge par votre entreprise.",
     "niv": [
      "Niveau 1, acculturation : comprendre l'IA et renouveler ses pratiques sur son métier, ouvert à tous.",
