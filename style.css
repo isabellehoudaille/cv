@@ -1235,3 +1235,12 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
 .niv-n { display: block; font-size: .76rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: var(--a1); }
 .niv-b b { display: block; margin: 2px 0 6px; font-size: 1.12rem; line-height: 1.25; }
 .niv-b p { margin: 0; color: var(--soft); line-height: 1.55; }
+
+/* sections repliables : encadrés colorés, trait épais, couleurs de la charte */
+.acc#posture, .acc#posture.open { background: #fde3d6; border: 3px solid #e8795a; box-shadow: 0 4px 16px rgba(232,121,90,.22); }
+.acc#realisations, .acc#realisations.open { background: #e2e8f8; border: 3px solid #6f86cf; box-shadow: 0 4px 16px rgba(111,134,207,.24); }
+.acc#posture:hover { border-color: #b8421f; }
+.acc#realisations:hover { border-color: #2f4590; }
+.acc#posture .ah-o, .acc#posture .ah-c { color: #b8421f; }
+.acc#realisations .ah-o, .acc#realisations .ah-c { color: #2f4590; }
+.acc#posture .at small, .acc#realisations .at small { color: var(--txt, #1e2a44); }
