@@ -1244,3 +1244,10 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
 .acc#posture .ah-o, .acc#posture .ah-c { color: #b8421f; }
 .acc#realisations .ah-o, .acc#realisations .ah-c { color: #2f4590; }
 .acc#posture .at small, .acc#realisations .at small { color: var(--txt, #1e2a44); }
+
+/* plus d'aplats de couleur : fond blanc, seul le trait est coloré */
+.tile, .tile:nth-child(n) { background: #fff !important; border: 3px solid var(--dc) !important; color: #1e2a44 !important; }
+.tile .t-title, .tile .t-go, .tile .t-ic { color: #1e2a44 !important; }
+.tile .t-title .iab, .tile .iab { color: var(--a1) !important; text-shadow: none !important; }
+.tile[aria-selected="true"] { box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--dc) !important; }
+.panel, .panel.c-d1, .panel.c-d2, .panel.c-d3, .panel.c-d4, .panel.c-d5 { background: #fff !important; border: 3px solid var(--dc) !important; }
