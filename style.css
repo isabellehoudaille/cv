@@ -1218,3 +1218,4 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
 /* offre : deux niveaux */
 .offre-niv { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; font-size: .92em; }
 .offre-niv li { padding-left: 12px; border-left: 2px solid #c4401b; }
+.offre-fin { margin-top: 10px; }

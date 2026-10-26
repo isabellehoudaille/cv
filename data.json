@@ -669,15 +669,16 @@
    },
    {
     "t": "Vous êtes une entreprise",
-    "d": "Vos managers et vos équipes se forment sur leur propre terrain : leurs métiers, leurs cas d'usage, leurs irritants. Financement possible par votre OPCO, via un organisme partenaire ou une société de portage certifiée Qualiopi."
+    "d": "Vos managers et vos équipes se forment sur leur propre terrain : leurs métiers, leurs cas d'usage, leurs irritants. Financement possible par votre OPCO, via un organisme partenaire."
    },
    {
     "t": "Vous êtes manager et vous voulez être augmenté, pas remplacé",
-    "d": "Accompagnement en tout petit groupe ou en individuel : l'IA fait ce qu'elle fait très bien, vous gardez les décisions qui vous appartiennent. Financement personnel, ou pris en charge par votre entreprise.",
+    "d": "Accompagnement en tout petit groupe ou en individuel : l'IA fait ce qu'elle fait très bien, vous gardez les décisions qui vous appartiennent.",
     "niv": [
      "Niveau 1, acculturation : comprendre l'IA et renouveler ses pratiques sur son métier, ouvert à tous.",
-     "Niveau 2, cockpit de pilotage : alléger les tâches répétitives, chronophages ou complexes qui créent des points de friction, et gagner en productivité, en créativité et en impact."
-    ]
+     "Niveau 2, cockpit de pilotage avec Claude Code : une IA configurée pour vous, qui connaît votre métier, se branche sur vos outils et prend en charge les tâches répétitives et chronophages."
+    ],
+    "fin": "Financement personnel, ou pris en charge par votre entreprise."
    }
   ],
   "pied": "Chaque prestation se construit sur devis, à la mesure de votre contexte et de vos équipes.",
