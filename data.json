@@ -83,7 +83,8 @@
     "Poser le livret de marque et la charte éditoriale : positionnement, promesse, ton, preuves, brief pour le graphiste",
     "Créer des visuels, des infographies et de la data visualisation pour illustrer un message, un rapport ou une présentation",
     "Animer une communauté ou un réseau : rubriques récurrentes, réponses types",
-    "Piloter son activité de communication : tableau de bord et indicateurs de performance en data visualisation, pour mesurer l'impact"
+    "Piloter son activité de communication : tableau de bord et indicateurs de performance en data visualisation, pour mesurer l'impact",
+    "Planifier ses tâches récurrentes, dans Claude ou ChatGPT : veille, newsletter, bilan de performance, récapitulatif hebdomadaire, livrés sans y penser"
    ],
    "court": "Communication",
    "c": "indigo",
@@ -133,7 +134,8 @@
     "Construire un parcours d'intégration : étapes, supports, checklist pour le manager",
     "Décliner une information interne par public : terrain, managers, direction",
     "Concevoir un catalogue d'ateliers ou un plan de formation et ses supports",
-    "Piloter les indicateurs RH et le budget formation : tableau de bord visuel, suivi des écarts, synthèse pour la direction"
+    "Piloter les indicateurs RH et le budget formation : tableau de bord visuel, suivi des écarts, synthèse pour la direction",
+    "Planifier le suivi RH, dans Claude ou ChatGPT : veille sociale, récapitulatif des demandes, bilan mensuel, to-do list des échéances"
    ],
    "court": "RH et communication interne",
    "c": "sky",
@@ -181,7 +183,8 @@
     "Rédiger recommandations et plan d'action pour le comité de pilotage",
     "Prototyper des interfaces à partir des parcours validés",
     "Construire le plan d'adoption : managers relais, kit, formation, messages adaptés à chaque population",
-    "Piloter l'adoption : tableau de bord d'usage et de satisfaction, indicateurs avant et après, baromètre, pour mesurer l'impact"
+    "Piloter l'adoption : tableau de bord d'usage et de satisfaction, indicateurs avant et après, baromètre, pour mesurer l'impact",
+    "Planifier le suivi du projet, dans Claude ou ChatGPT : veille, récapitulatif hebdomadaire, bilan d'adoption, to-do list de l'équipe"
    ],
    "court": "UX et conduite du changement",
    "c": "violet",
@@ -280,7 +283,8 @@
     "Piloter budget, financements et indicateurs d'impact : tableau de bord partagé avec la gouvernance",
     "Préparer CA et assemblées : synthèses, comptes rendus, relevés de décisions",
     "Valoriser ses actions pour donner envie de s'engager : bilan d'impact décliné en newsletter, publications et contenus d'attractivité, avec un message par cible (bénévoles, salariés, partenaires)",
-    "Animer un réseau de partenaires : cartographier, fédérer, créer du lien, impulser une dynamique, proposer des événements, valoriser l'action de chacun"
+    "Animer un réseau de partenaires : cartographier, fédérer, créer du lien, impulser une dynamique, proposer des événements, valoriser l'action de chacun",
+    "Planifier le suivi de la mission, dans Claude ou ChatGPT : veille sur les financeurs, bilan d'impact, récapitulatif, to-do list des échéances"
    ],
    "court": "Associations et mission",
    "c": "mint",
