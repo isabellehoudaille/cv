@@ -1251,3 +1251,9 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
 .tile .t-title .iab, .tile .iab { color: var(--a1) !important; text-shadow: none !important; }
 .tile[aria-selected="true"] { box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--dc) !important; }
 .panel, .panel.c-d1, .panel.c-d2, .panel.c-d3, .panel.c-d4, .panel.c-d5 { background: #fff !important; border: 3px solid var(--dc) !important; }
+
+/* indicateurs : durées sur une seule ligne, colonnes alignées entre Avant et Après */
+.rz-bars { grid-template-columns: 3.4em minmax(0, 1fr) max-content; column-gap: 10px; }
+.rz-bar { grid-column: 1 / -1; grid-template-columns: subgrid; }
+.rz-bar em, .rz-bar .bl, .rz-gain, .rz-tag { white-space: nowrap; }
+@media (max-width: 640px) { .rz-bars { grid-template-columns: 3em minmax(0, 1fr) max-content; } .rz-bar { grid-template-columns: subgrid; } }
