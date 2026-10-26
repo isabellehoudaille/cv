@@ -144,7 +144,7 @@
    "res": [
     {
      "t": "Le renouvellement du catalogue d'ateliers d'une association nationale",
-     "l": "quatre agents IA, un par étape de conception, bibliothèque de 60+ prompts",
+     "l": "un agent guide la conception pas à pas, bibliothèque de 60+ prompts",
      "avl": "tous les 3 ans",
      "apl": "tous les 3 mois",
      "av": 36,
@@ -599,11 +599,11 @@
    "alt": "Écran d'un agent IA de l'association",
    "chiffre": "3 ans → 3 mois",
    "chiffreL": "entre deux renouvellements du catalogue d'ateliers",
-   "d": "Le catalogue d'ateliers de l'association était renouvelé tous les trois ans, un chantier lourd. Un dispositif d'agents IA, un par étape du cycle de conception, le renouvelle désormais tous les trois mois : le cycle est divisé par douze. Le catalogue colle au besoin réel d'un marché qui bouge vite, et gagne en attractivité.",
+   "d": "Le catalogue d'ateliers de l'association était renouvelé tous les trois ans, un chantier lourd. Un agent conçoit désormais chaque atelier de A à Z, du besoin repéré sur le terrain aux supports de communication : le catalogue se renouvelle tous les trois mois, un cycle divisé par douze. Il colle au besoin réel d'un marché qui bouge vite, et gagne en attractivité.",
    "pts": [
-    "Un agent par étape du cycle de conception des ateliers, construit avec la direction",
-    "Prototypes testés en situation réelle avant tout déploiement",
-    "Données anonymisées, outils validés, relecture humaine avant diffusion"
+    "Le point de départ : un besoin repéré sur le terrain, trois angles proposés, un seul retenu",
+    "Six étapes validées une à une : besoin, fiche atelier, brise-glace et mises en situation, déroulé minuté, évaluation, supports de communication",
+    "À l'arrivée : un atelier prêt à animer, avec sa fiche, son déroulé et ses supports"
    ],
    "gain": "Avant : tous les 3 ans. Maintenant : tous les 3 mois, un cycle divisé par 12",
    "avant": 36,
