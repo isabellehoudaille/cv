@@ -268,8 +268,8 @@
       panel.className = "panel c-" + f.col;
       panel.innerHTML = '<div class="p-left"><div class="p-ill">' + f.icon + '</div><h3 class="swap">' + titreIA(f.t) + '</h3><p class="acc2 swap">' + esc(f.acc) + '</p>' +
         '<p class="d swap">' + esc(f.d) + '</p></div>' +
-        '<div class="p-right"><div class="cas-title">Vos cas métiers en action</div><ul class="cas">' + f.cas.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join("") + '</ul>' +
-        '<div class="cas-title">Pourquoi ça peut marcher : indicateurs de réussite</div><ul class="rzs">' + f.res.map(function (x) {
+        '<div class="p-right"><div class="cas-title">Vos cas métiers en action : exemples, non limitatifs</div><ul class="cas">' + f.cas.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join("") + '</ul>' +
+        '<div class="cas-title">Indicateurs de réussite : exemples</div><ul class="rzs">' + f.res.map(function (x) {
           var w = Math.max(6, Math.round(x.ap / x.av * 100)), g = Math.round((1 - x.ap / x.av) * 100);
           return '<li class="rz"><div class="rz-h"><b>' + esc(x.t) + '</b><span class="rz-tag' + (x.est ? ' est' : '') + '">' + (x.est ? 'Estimation' : 'Constaté') + '</span></div><p>' + esc(x.l) + '</p>' +
             '<div class="rz-bars"><div class="rz-bar rz-avant"><span class="bl">Avant</span><span class="trk"><i style="--w:100%"></i></span><em>' + esc(x.avl) + '</em></div>' +
