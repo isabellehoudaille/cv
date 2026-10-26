@@ -11,7 +11,7 @@
   "titre2": ""
  },
  "profil": {
-  "texte": "Vingt ans de communication, de marketing et de transformation digitale, dont quatre ans de conseil auprès de grands groupes. Je forme aujourd'hui à l'IA générative (IAG) et agentique les organismes de formation, les managers et leurs équipes, les particuliers. Ma pratique tient en deux temps : les fondamentaux, pour adopter la bonne posture, puis des cas d'usage propres à chaque métier. L'IA au service de l'humain, dans la responsabilité, l'éthique et le discernement. Humain + IA, jamais l'un sans l'autre.",
+  "texte": "Vingt ans de communication, de marketing et de transformation digitale, dont quatre ans de conseil auprès de grands groupes. Je forme aujourd'hui à l'IA générative (IAG) et agentique les organismes de formation, les managers et leurs équipes, les particuliers. Ma méthode tient en deux temps : les fondamentaux, pour adopter la bonne posture, puis des cas d'usage taillés pour chaque métier. L'IA au service de l'humain, dans la responsabilité, l'éthique et le discernement. Humain + IA, jamais l'un sans l'autre.",
   "accent": "Humain + IA, jamais l'un sans l'autre."
  },
  "chiffres": [
@@ -76,7 +76,7 @@
    "icon": "<svg viewBox=\"0 0 24 24\" width=\"1em\" height=\"1em\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\"/><path d=\"M8 9h8M8 12h5\"/></svg>",
    "t": "IA et communication professionnelle",
    "acc": "L'IA tient la plume, vous gardez la voix.",
-   "d": "Je construis votre cockpit de pilotage et de création d'assets marketing et de communication : livret de marque, calendrier éditorial, visuels, messages adaptés à chaque cible. L'IA décline, vous gardez la voix.",
+   "d": "Un cockpit de pilotage et de création pour vos assets marketing et de communication : livret de marque, calendrier éditorial, visuels, un message pour chaque cible. L'IA décline, votre voix reste la vôtre.",
    "cas": [
     "Décliner un même message en emailing, plaquette, réseaux sociaux, communiqué de presse, site web, en l'adaptant à l'objectif visé et à chaque cible",
     "Bâtir un calendrier éditorial : un contenu pilier, plusieurs formats, un message par cible",
@@ -124,8 +124,8 @@
    "id": "rh",
    "icon": "<svg viewBox=\"0 0 24 24\" width=\"1em\" height=\"1em\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"8\" r=\"3\"/><path d=\"M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6\"/><path d=\"M16 5.2a3 3 0 0 1 0 5.6M18 14.3c1.8.7 3 2.5 3 4.7\"/></svg>",
    "t": "IA, RH et communication interne",
-   "acc": "Du temps rendu au métier.",
-   "d": "Cartographie des irritants, fiches de poste, parcours d'intégration, FAQ salariés, tableaux de bord RH : l'IA fait gagner du temps, de la créativité et de la cohérence collective.",
+   "acc": "Moins de paperasse, plus d'humain.",
+   "d": "On cartographie les irritants, puis on s'attaque aux fiches de poste, aux parcours d'intégration, aux FAQ salariés, aux tableaux de bord RH. Résultat : du temps, de la créativité et de la cohérence collective qui reviennent à l'équipe.",
    "cas": [
     "Rédiger fiches de poste, offres et contenus de marque employeur, en contrôlant les biais",
     "Transformer un accord ou un texte juridique en livret salarié et en FAQ RH",
@@ -176,7 +176,7 @@
    "icon": "<svg viewBox=\"0 0 24 24\" width=\"1em\" height=\"1em\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M3 9h18M9 9v11\"/></svg>",
    "t": "IA, UX et conduite du changement",
    "acc": "L'IA synthétise, l'enquête reste humaine.",
-   "d": "Audit, analyse de données, personas, recommandations, prototypage, ateliers, tableaux de bord d'adoption : l'IA intégrée à chaque étape du workflow.",
+   "d": "Du verbatim à la recommandation : audit, analyse de données, personas, prototypage, ateliers, tableaux de bord d'adoption. L'IA s'invite à chaque étape du workflow, le terrain garde le dernier mot.",
    "cas": [
     "Dépouiller entretiens et enquêtes, cartographier et prioriser les irritants : thèmes, verbatims à l'appui, impact et effort",
     "Bâtir personas et parcours, puis les valider auprès des utilisateurs",
@@ -228,8 +228,8 @@
    "col": "d4",
    "c": "amber",
    "ill": "<svg viewBox=\"0 0 160 130\" aria-hidden=\"true\"><path class=\"s f3\" d=\"M62 78 L42 104 L64 98 Z\"/><path class=\"s f3\" d=\"M98 78 L118 104 L96 98 Z\"/><path class=\"s f2\" d=\"M80 10 C106 28 110 64 100 92 H60 C50 64 54 28 80 10 Z\"/><circle class=\"s f1\" cx=\"80\" cy=\"48\" r=\"11\"/><path class=\"s f1\" d=\"M68 94 Q80 128 92 94 Z\"/><path class=\"s f3\" d=\"M130 30 l3 7 7 3 -7 3 -3 7 -3-7 -7-3 7-3z\"/><path class=\"s\" d=\"M26 40 h10 M31 35 v10\"/></svg>",
-   "acc": "Le manager pilote, l'IA copilote.",
-   "d": "Deux niveaux : l'acculturation pour tous, puis un cockpit de pilotage. Je cartographie vos processus métiers, j'établis les bonnes connexions et je configure les prompts, pour alléger les tâches répétitives, chronophages ou complexes, gagner en productivité et en créativité, et mesurer l'impact.",
+   "acc": "L'IA fait le travail, le manager garde la décision.",
+   "d": "Deux niveaux : l'acculturation pour tous, puis un cockpit de pilotage. Je cartographie vos processus métiers, j'établis les bonnes connexions, je configure les prompts. Les tâches répétitives, chronophages ou complexes s'allègent, et votre cerveau se libère pour ce qui vous appartient : arbitrer, décider, inventer.",
    "cas": [
     "Installer son cockpit de pilotage : l'IA reliée à sa messagerie, son agenda, ses documents et ses applications métiers, avec le LLM mis à disposition, pour gagner en productivité",
     "Transformer les échanges en décisions : comptes rendus de visios et de rencontres, synthèses, plans d'action avec échéances",
@@ -275,7 +275,7 @@
    "icon": "<svg viewBox=\"0 0 24 24\" width=\"1em\" height=\"1em\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 20s-8-5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 9c0 6-8 11-8 11z\"/></svg>",
    "t": "IA, associations et entreprises à mission",
    "acc": "L'IA doit prouver son impact.",
-   "d": "Suivi du budget et de l'impact en tableaux de bord, rapports pour financeurs, gestion de projets, animation de réseau : l'IA au service de la mission.",
+   "d": "Budget et impact en tableaux de bord, rapports pour les financeurs, gestion de projets, animation de réseau : l'IA sert la mission, et l'impact se démontre.",
    "cas": [
     "Rédiger rapports et bilans pour les financeurs : indicateurs, impact, messages adaptés à chaque financeur",
     "Monter un projet ou un dossier : diagnostic, objectifs, plan d'action, budget prévisionnel",
@@ -538,7 +538,7 @@
     "n": 1,
     "t": "Le métier",
     "s": "Les usages avant l'outil.",
-    "d": "Je pars du travail réel : qui fait quoi, où ça coince, ce que l'outil changera. Une démarche UX : les cas d'usage de vos équipes et leurs mots, pour une IA vraiment opérationnelle."
+    "d": "Je pars du travail réel : qui fait quoi, où ça coince, ce que l'outil changera. Une démarche UX : j'écoute les cas d'usage de vos équipes, avec leurs mots, pour une IA qui sert dès le lundi matin."
    },
    {
     "n": 2,
@@ -549,7 +549,7 @@
    {
     "n": 3,
     "t": "Les outils",
-    "s": "À choisir selon vos contraintes.",
+    "s": "Choisis pour vos contraintes, pas pour la mode.",
     "d": "ChatGPT, Claude, Copilot, Gemini, Mistral, les IA sectorielles. Sécurité, confidentialité, digital workplace : on choisit les environnements et les LLM, puis les fonctionnalités utiles. Génératif, agents, collaboratif."
    }
   ],
@@ -663,18 +663,18 @@
   "items": [
    {
     "t": "Vous êtes un organisme de formation",
-    "d": "Je conçois et j'anime vos modules sur l'IA générative et agentique, en sous-traitance pédagogique. Vous gardez la relation client et le dossier OPCO, je m'adapte à votre catalogue."
+    "d": "Vous gardez la relation client et le dossier OPCO, je prends la pédagogie : conception et animation de vos modules sur l'IA générative et agentique, en sous-traitance, calés sur votre catalogue."
    },
    {
     "t": "Vous êtes une entreprise",
-    "d": "Formation et accompagnement de vos managers et de vos équipes, à partir de leurs métiers et de leurs cas d'usage. Financement possible par votre OPCO, via un organisme partenaire ou une société de portage certifiée Qualiopi."
+    "d": "Vos managers et vos équipes se forment sur leur propre terrain : leurs métiers, leurs cas d'usage, leurs irritants. Financement possible par votre OPCO, via un organisme partenaire ou une société de portage certifiée Qualiopi."
    },
    {
-    "t": "Vous êtes manager ou cadre et vous voulez optimiser votre organisation",
-    "d": "Accompagnement en tout petit groupe ou en individuel, à deux niveaux. Financement personnel, ou pris en charge par votre entreprise.",
+    "t": "Vous êtes manager ou cadre et vous voulez être augmenté, pas remplacé",
+    "d": "Accompagnement en tout petit groupe ou en individuel : l'IA fait ce qu'elle fait très bien, vous gardez les décisions qui vous appartiennent. Financement personnel, ou pris en charge par votre entreprise.",
     "niv": [
-     "Niveau 1, acculturation : maîtriser l'IA sur votre métier, ouvert à tous.",
-     "Niveau 2, cockpit de pilotage : alléger les tâches répétitives, chronophages ou complexes qui créent des points de friction, pour gagner en productivité, en créativité et en impact."
+     "Niveau 1, acculturation : comprendre l'IA et renouveler ses pratiques sur son métier, ouvert à tous.",
+     "Niveau 2, cockpit de pilotage : alléger les tâches répétitives, chronophages ou complexes qui créent des points de friction, et gagner en productivité, en créativité et en impact."
     ]
    }
   ],
