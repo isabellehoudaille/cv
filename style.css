@@ -1214,3 +1214,7 @@ figure.visuel img { -webkit-mask-image: linear-gradient(180deg, #000 80%, transp
 .offre-devis{margin:1.4rem auto 0;text-align:center;font-size:.98rem;color:inherit;opacity:.85;line-height:1.5}
 .devis-lien{background:none;border:0;padding:0;margin-left:.25em;font:inherit;font-weight:600;color:#c4401b;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 .devis-lien:hover{opacity:.8}
+
+/* offre : deux niveaux */
+.offre-niv { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; font-size: .92em; }
+.offre-niv li { padding-left: 12px; border-left: 2px solid #c4401b; }

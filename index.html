@@ -88,7 +88,7 @@
     var O = D.offre; if (!O) return "";
     return '<section class="offre" id="offre"><div class="sec-head"><h2>' + esc(O.titre) + '</h2><span class="sec-hint">' + esc(O.hint || "") + '</span></div>' +
       '<ul class="offre-grid">' + O.items.map(function (it, i) {
-        return '<li class="offre-it"><span class="offre-n">' + (i + 1) + '</span><h3>' + esc(it.t) + '</h3><p>' + esc(it.d) + '</p></li>';
+        return '<li class="offre-it"><span class="offre-n">' + (i + 1) + '</span><h3>' + esc(it.t) + '</h3><p>' + esc(it.d) + '</p>' + (it.niv ? '<ul class="offre-niv">' + it.niv.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join("") + '</ul>' : '') + '</li>';
       }).join("") + '</ul>' + (O.pied ? '<p class="offre-devis">' + esc(O.pied) + ' <button type="button" class="devis-lien" data-open-contact>' + esc(O.piedLien || "Contactez-moi") + '</button></p>' : '') + '</section>';
   }
 
