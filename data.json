@@ -229,16 +229,14 @@
    "c": "amber",
    "ill": "<svg viewBox=\"0 0 160 130\" aria-hidden=\"true\"><path class=\"s f3\" d=\"M62 78 L42 104 L64 98 Z\"/><path class=\"s f3\" d=\"M98 78 L118 104 L96 98 Z\"/><path class=\"s f2\" d=\"M80 10 C106 28 110 64 100 92 H60 C50 64 54 28 80 10 Z\"/><circle class=\"s f1\" cx=\"80\" cy=\"48\" r=\"11\"/><path class=\"s f1\" d=\"M68 94 Q80 128 92 94 Z\"/><path class=\"s f3\" d=\"M130 30 l3 7 7 3 -7 3 -3 7 -3-7 -7-3 7-3z\"/><path class=\"s\" d=\"M26 40 h10 M31 35 v10\"/></svg>",
    "acc": "L'IA fait le travail, le manager garde la décision.",
-   "d": "Deux niveaux : l'acculturation pour tous, puis un cockpit de pilotage. Je cartographie vos processus métiers, j'établis les bonnes connexions, je configure les prompts. Les tâches répétitives, chronophages ou complexes s'allègent, et votre cerveau se libère pour ce qui vous appartient : arbitrer, décider, inventer.",
+   "d": "",
    "cas": [
-    "Installer son cockpit de pilotage : l'IA reliée à sa messagerie, son agenda, ses documents et ses applications métiers, avec le LLM mis à disposition, pour gagner en productivité",
-    "Transformer les échanges en décisions : comptes rendus de visios et de rencontres, synthèses, plans d'action avec échéances",
-    "Planifier ses tâches récurrentes : veille, newsletter, bilan, récapitulatif, to-do list, livrés sans y penser",
-    "Travailler en équipe : une base de connaissances partagée, interrogeable, pour capitaliser sur le savoir et les pratiques collectives",
-    "Penser avec l'IA : un partenaire de réflexion pour challenger ses idées, explorer des pistes et gagner en créativité",
-    "Piloter son activité : suivi financier, suivi des indicateurs et tableaux de bord en data visualisation",
-    "Construire son offre de services et son positionnement : client visé, valeur, formats, tarifs, message en une phrase, LinkedIn, contenus",
-    "Concevoir présentations et prises de parole, et adapter son discours, son pitch, son offre ou sa proposition commerciale à chaque public, pour avoir de l'impact"
+    "Installer son cockpit de pilotage, relié à sa messagerie, son agenda et ses documents",
+    "Transformer les échanges en décisions : comptes rendus, synthèses, plans d'action",
+    "Planifier ses tâches récurrentes : veille, newsletter, bilan, récapitulatif, to-do list",
+    "Travailler en équipe : une base de connaissances partagée et interrogeable",
+    "Penser avec l'IA : un partenaire de réflexion pour challenger ses idées et gagner en créativité",
+    "Construire son offre, son positionnement et ses prises de parole, avec de l'impact"
    ],
    "res": [
     {
@@ -267,6 +265,18 @@
      "av": 45,
      "ap": 10,
      "est": true
+    }
+   ],
+   "niv": [
+    {
+     "n": "Niveau 1",
+     "t": "Acculturation, ouverte à tous",
+     "d": "Les fondamentaux, le prompting, les agents. On comprend l'IA et on renouvelle ses pratiques sur son métier."
+    },
+    {
+     "n": "Niveau 2",
+     "t": "Cockpit de pilotage avec Claude Code",
+     "d": "On construit ensemble votre système de travail avec l'IA. Vos outils et vos dossiers sont reliés, une mémoire garde le fil, et l'ensemble travaille en continu pour vous laisser le temps de décider."
     }
    ]
   },
@@ -673,12 +683,7 @@
    },
    {
     "t": "Vous êtes manager et vous voulez être augmenté, pas remplacé",
-    "d": "Accompagnement en tout petit groupe ou en individuel.",
-    "niv": [
-     "Niveau 1, acculturation, ouvert à tous : les fondamentaux, le prompting, les agents. On comprend l'IA et on renouvelle ses pratiques sur son métier.",
-     "Niveau 2, cockpit de pilotage avec Claude Code : on construit ensemble votre système de travail avec l'IA, sur mesure. Vos outils et vos dossiers sont reliés, une mémoire garde le fil, et l'ensemble travaille en continu pour vous laisser le temps de décider."
-    ],
-    "fin": "Financement personnel, ou pris en charge par votre entreprise."
+    "d": "Accompagnement en tout petit groupe ou en individuel : on renouvelle vos pratiques avec l'IA, puis on installe votre cockpit de pilotage. Financement personnel, ou pris en charge par votre entreprise."
    }
   ],
   "pied": "Chaque prestation se construit sur devis, à la mesure de votre contexte et de vos équipes.",

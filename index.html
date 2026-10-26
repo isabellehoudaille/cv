@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@500;600;700;800;900&display=swap">
-<link rel="stylesheet" href="style.css?v=20261026224716">
+<link rel="stylesheet" href="style.css?v=20261026225333">
 </head>
 <body>
 <div id="progress" aria-hidden="true"></div>
@@ -266,7 +266,7 @@
       panel.setAttribute("aria-labelledby", "tab-" + f.id);
       panel.className = "panel c-" + f.col;
       panel.innerHTML = '<div class="p-left"><div class="p-ill">' + f.icon + '</div><h3 class="swap">' + titreIA(f.t) + '</h3><p class="acc2 swap">' + esc(f.acc) + '</p>' +
-        '<p class="d swap">' + esc(f.d) + '</p></div>' +
+        (f.niv ? '<div class="niv swap">' + f.niv.map(function (n) { return '<div class="niv-b"><span class="niv-n">' + esc(n.n) + '</span><b>' + esc(n.t) + '</b><p>' + esc(n.d) + '</p></div>'; }).join("") + '</div>' : '<p class="d swap">' + esc(f.d) + '</p>') + '</div>' +
         '<div class="p-right"><div class="cas-title">Vos cas métiers en action : exemples, non limitatifs</div><ul class="cas">' + f.cas.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join("") + '</ul>' +
         '<div class="cas-title">Indicateurs de réussite : exemples</div><ul class="rzs">' + f.res.map(function (x) {
           var w = Math.max(6, Math.round(x.ap / x.av * 100)), g = Math.round((1 - x.ap / x.av) * 100);
