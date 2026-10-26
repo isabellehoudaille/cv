@@ -544,7 +544,7 @@
     "n": 2,
     "t": "La posture",
     "s": "Le professionnel reste aux commandes.",
-    "d": "L'IA reste un copilote : l'humain pose le problème, arbitre et signe. Avec les agents IA, je précise qui fixe le périmètre, les contrôles, et quand reprendre la main. Un usage raisonné, éthique et responsable, qui valorise le jugement."
+    "d": "L'IA copilote, l'humain pose le problème, arbitre et signe. Avec les agents, je précise qui fixe le périmètre, quels contrôles s'appliquent, et quand reprendre la main. Un usage raisonné, éthique, qui met le jugement en valeur."
    },
    {
     "n": 3,
@@ -559,7 +559,7 @@
  },
  "contact": {
   "titre": "Contactez-moi",
-  "texte": "Vous souhaitez en savoir plus, collaborer, former vos équipes ou être accompagné(e) ? Écrivez-moi quelques lignes sur votre besoin : je vous réponds personnellement.",
+  "texte": "Un projet, une équipe à former, une envie de vous faire accompagner ? Écrivez-moi quelques lignes sur votre besoin : je vous réponds personnellement.",
   "objet": "Prise de contact à la suite de votre CV",
   "bouton": "Me contacter",
   "accroche": "On se parle ?",
@@ -582,7 +582,7 @@
    "alt": "Couverture du Cockpit IA du CIP, la bibliothèque de prompts",
    "chiffre": "60+",
    "chiffreL": "prompts",
-   "d": "Bibliothèque d'une bonne soixantaine de prompts, créée et co-créée avec les conseillers. Elle sert de base structurante : les usages consolidés lors d'une formation enrichissent la suivante, et tout le réseau en profite.",
+   "d": "Une soixantaine de prompts, écrits avec les conseillers, pour ne jamais repartir de zéro. Chaque formation enrichit la bibliothèque, la suivante en profite, et tout le réseau avec.",
    "pts": [
     "Les éléments clés pour comprendre l'IA et ses outils",
     "La posture à adopter et l'art de questionner",
@@ -599,7 +599,7 @@
    "alt": "Écran d'un agent IA de l'association",
    "chiffre": "",
    "chiffreL": "",
-   "d": "Une association nationale de défense des droits des consommateurs veut dégager du temps de ses équipes sur les tâches répétitives. Nous recensons ensemble ces tâches, puis je conçois avec la direction un agent IA : expression du besoin, prototypes, tests en situation réelle. Le jugement et la décision restent humains.",
+   "d": "Une association nationale de défense des droits des consommateurs veut rendre du temps à ses équipes. Nous commençons par recenser les tâches répétitives. Puis je conçois l'agent avec la direction : besoin exprimé, prototypes, tests en situation réelle. Le jugement et la décision restent humains.",
    "pts": [
     "Recensement des tâches chronophages avec les équipes",
     "Prototypes testés en situation réelle avant tout déploiement",
@@ -617,7 +617,7 @@
    "chiffreL": "de lecture pour passer en revue 50 projets tous les 2 mois",
    "avant": 35,
    "apres": 10,
-   "d": "Tous les deux mois, une cinquantaine de dossiers de porteurs de projets, de formats et de qualité inégaux, doivent être lus avant le comité de sélection. Avec l'IA, chacun est analysé selon une même grille de critères équitables, centrée sur l'impact attendu : le temps de lecture passe de 35 h à 10 h, et la décision reste humaine.",
+   "d": "Tous les deux mois, une cinquantaine de dossiers, de formats et de qualité inégaux, attendent le comité de sélection. L'IA passe chacun au crible d'une même grille de critères équitables, centrée sur l'impact attendu. Le temps de lecture tombe de 35 h à 10 h, la décision reste humaine.",
    "pts": [
     "Une grille de critères équitables et centrée sur l'impact, identique pour chaque projet",
     "Données anonymisées, outils validés, relecture humaine avant le comité"
@@ -678,7 +678,7 @@
     ]
    }
   ],
-  "pied": "Chaque prestation est proposée sur devis, adaptée à votre contexte et à vos équipes.",
+  "pied": "Chaque prestation se construit sur devis, à la mesure de votre contexte et de vos équipes.",
   "piedLien": "Parlons de votre besoin"
  }
 }
