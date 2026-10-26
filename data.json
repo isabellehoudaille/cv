@@ -601,9 +601,9 @@
    "chiffreL": "entre deux renouvellements du catalogue d'ateliers",
    "d": "Le catalogue d'ateliers de l'association était renouvelé tous les trois ans, un chantier lourd. Un dispositif d'agents IA, un par étape du cycle de conception, le renouvelle désormais tous les trois mois : le cycle est divisé par douze. Le catalogue colle au besoin réel d'un marché qui bouge vite, et gagne en attractivité.",
    "pts": [
-    "Un même socle décliné en trois parcours : managers, leurs équipes, conseillers",
-    "Gouvernance posée : données anonymisées, outils validés, relecture humaine avant diffusion",
-    "Dispositif testé en conditions réelles lors de cinq sessions animées"
+    "Un agent par étape du cycle de conception des ateliers, construit avec la direction",
+    "Prototypes testés en situation réelle avant tout déploiement",
+    "Données anonymisées, outils validés, relecture humaine avant diffusion"
    ],
    "gain": "Avant : tous les 3 ans. Maintenant : tous les 3 mois, un cycle divisé par 12",
    "avant": 36,
